@@ -1,0 +1,129 @@
+@font-face{
+    font-family: "MaryKaySans-Book";
+    src: url("../fonts/MaryKaySans-Book.otf");
+}
+@font-face{
+    font-family: "MaryKaySans-Medium";
+    src: url("../fonts/MaryKaySans-Medium.otf");
+}
+@font-face{
+    font-family: "MaryKaySans-Semibold";
+    src: url("../fonts/MaryKaySans-Semibold.otf");
+}
+.main-tit1{
+    font-family: "MaryKaySans-Semibold";
+    font-size: 3.5em;    
+}.txt-responsive{
+    font-size: 1.3rem;
+}
+
+
+.back1{
+    background: url("../images/background.jpg") center center / cover no-repeat fixed;
+}.MainVideo{
+    height: 500px;
+}.back2{
+    background-image:  url("../images/kit3.png"), url("../images/background2.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, center center;
+    background-size: 600px, cover;    
+    background-attachment: scroll, fixed;
+}.back3{
+    background-image: url("../images/kit4.png"), url("../images/background3.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left 100px, center center;
+    background-size: 300px, cover;    
+    background-attachment: fixed, fixed;
+}.back4{
+    background-image: url("../images/kit5.png"), url("../images/background4.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left 100px, center center;
+    background-size: 300px, cover;    
+    background-attachment: fixed, fixed;
+}
+.back5{
+    background-image: url("../images/kit6.png"), url("../images/background5.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, center center;
+    background-size: 500px, cover;    
+    background-attachment: fixed, fixed;
+}
+    
+body{
+    font-family: "MaryKaySans-Book";
+}
+strong{
+    font-family: "MaryKaySans-Medium";
+}
+.border{
+    border: 1px dashed #ff0000 !important;
+}
+
+.pink{
+    color: #ed1380;
+}
+.white{
+   color: #fff; 
+}
+#MainForm label{
+    margin-bottom: 0 !important;
+    width: 100%;    
+}
+#MainForm .form-control{
+    background-color: transparent;    
+    border: 1px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+}#MainForm .form-control::placeholder{
+    font-size: .7rem;
+    color: #fff !important;
+}#MainForm .form-control:focus{
+    border: 1px solid transparent;
+    box-shadow: 0 0 0 0.25rem rgba(237, 19, 128, 0.25);
+}
+#MainForm select option{
+    background-color: #fff;
+    color: #ed1380;
+}.form-check-input:checked {
+    background-color: #ed1380;
+    border-color: #ed1380;
+}#FormSubmit{
+    background-color: transparent;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+@media (max-width: 767px){
+    .main-tit1{
+        font-family: "MaryKaySans-Semibold";
+        font-size: 1.5rem;    
+    }.txt-responsive{
+        font-size: 1rem;
+    }
+    .back1{
+        background: url("../images/background.jpg") center bottom / cover no-repeat fixed;
+    }.back2{
+        background: url("../images/background2.jpg") center center / cover no-repeat fixed;
+    }
+    
+    
+    
+    .back3{
+        background: url("../images/background3.jpg") center center / cover no-repeat fixed;
+    }
+    .back4{
+        background: url("../images/background4.jpg") center center / cover no-repeat fixed;
+    }
+    .back5{
+        background: url("../images/background5.jpg") center center / cover no-repeat fixed;
+    }
+    .MainVideo{
+        height: 200px;
+    }
+}
+@media (max-width: 1024px) and (orientation: landscape){
+    .MainVideo{
+        height: 300px;
+    }
+}

@@ -1,0 +1,115 @@
+@font-face{
+    font-family: "MaryKaySans-Book";
+    src: url("../fonts/MaryKaySans-Book.otf");
+}
+@font-face{
+    font-family: "MaryKaySans-Medium";
+    src: url("../fonts/MaryKaySans-Medium.otf");
+}
+@font-face{
+    font-family: "MaryKaySans-Semibold";
+    src: url("../fonts/MaryKaySans-Semibold.otf");
+}
+.main-tit1{
+    font-family: "MaryKaySans-Semibold";
+    font-size: 3.5em;    
+}.txt-responsive{
+    font-size: 1.3rem;
+}body{
+    font-family: "MaryKaySans-Book";
+}strong{
+    font-family: "MaryKaySans-Medium";
+}.border{
+    border: 1px dashed #ff0000 !important;
+}.pink{
+    color: #ed1380;
+}.white{
+   color: #fff; 
+}
+.MainVideo{
+    height: 400px;
+}
+.back1{
+    background: url("../images/background1.jpg") center center / cover no-repeat fixed;
+}.back3{
+    background: url("../images/background-lg2.jpg") center center / cover no-repeat fixed;
+}.back4{    
+    background-image: url("../images/kit2.png"), url("../images/backgroundlg1.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left 100px, center bottom;
+    background-size: 40%, cover;    
+    background-attachment: fixed, fixed;
+}.back3b{
+    background: url("../images/kit2.png"), url("../images/background3.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom right 100px, center bottom;
+    background-size: 40%, cover;    
+    background-attachment: fixed, fixed;
+}.back4b{
+    background: url("../images/kit4.png"), url("../images/background4.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left 100px, center bottom;
+    background-size: 40%, cover;    
+    background-attachment: fixed, fixed;
+}
+    
+#MainForm .form-control{
+    border: 1px solid #ffbadf;
+    background-color: #ffbadf;
+    color: #d7176f;
+}#MainForm label{
+    color: #d7176f;
+}#MainForm .form-control::placeholder{
+    color: #d7176f;
+    font-size: .8rem;
+}#MainForm .form-control:focus{
+    border: 1px solid transparent;
+    box-shadow: 0 0 0 0.25rem rgba(237, 19, 128, 0.25);
+}.form-check-input {
+    background-color: #ffbadf;
+    border-color: #ffbadf;
+    border: 1px solid #d7176f;
+}.form-check-input:checked {
+    background-color: #d7176f;
+    border-color: #d7176f;
+}#FormSubmit{
+    background-color: transparent;
+    border: none !important;
+    box-shadow: none !important;
+}
+.check2 {
+    background-color: #b8a6d8;
+    border-color: #b8a6d8;
+}
+
+
+@media (max-width: 767px){
+    .main-tit1{
+        font-family: "MaryKaySans-Semibold";
+        font-size: 2em;    
+    }
+    .back1{
+        background: url("../images/background1.jpg") center center / cover no-repeat fixed;
+    }.MainVideo{
+        height: 200px;
+    }
+    .back2{
+       background: url("../images/background2.jpg") center center / cover no-repeat fixed;
+    }
+    .back3{
+       background: url("../images/background3.jpg") center center / cover no-repeat fixed;
+    }
+    .back3b{
+       background: url("../images/background3.jpg") center center / cover no-repeat fixed;
+    }
+    .back4{
+       background: url("../images/background4.jpg") center center / cover no-repeat fixed;
+    }.back4b{
+       background: url("../images/background4.jpg") center center / cover no-repeat fixed;
+    }
+}
+@media (max-width: 1024px) and (orientation: landscape){
+    .MainVideo{
+        height: 300px;
+    } 
+}

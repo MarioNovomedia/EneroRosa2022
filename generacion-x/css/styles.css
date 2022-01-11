@@ -13,7 +13,11 @@
 .main-tit1{
     font-family: "MaryKaySans-Semibold";
     font-size: 3.5em;    
-}.txt-responsive{
+}.main-tit2{
+    font-family: "MaryKaySans-Semibold";
+    font-size: 2.5em;    
+}
+.txt-responsive{
     font-size: 1.3rem;
 }body{
     font-family: "MaryKaySans-Book";
@@ -27,7 +31,18 @@
    color: #fff; 
 }
 .MainVideo{
-    height: 400px;
+    height: 450px;
+}
+.backsquare1{
+    background: url("../images/backsquare1.jpg") center center / cover no-repeat;
+}.backsquare2{
+    background: url("../images/backsquare2.jpg") center center / cover no-repeat;
+}
+.purple-line{
+    font-family: "MaryKaySans-Book";
+    background-color: #8a13da;
+    font-size: 1.5rem;
+    color: #fff;
 }
 .back1{
     background: url("../images/background1.jpg") center center / cover no-repeat fixed;
@@ -52,15 +67,20 @@
     background-size: 40%, cover;    
     background-attachment: fixed, fixed;
 }
-    
+.form-container{
+    background-color: #ffa7d7;
+}
 #MainForm .form-control{
     border: 1px solid #ffbadf;
     background-color: #ffbadf;
-    color: #d7176f;
+    color: #da2986;
+}#MainForm label img{
+    width: 250px;
 }#MainForm label{
-    color: #d7176f;
-}#MainForm .form-control::placeholder{
-    color: #d7176f;
+    color: #da2986;    
+}
+#MainForm .form-control::placeholder{
+    color: #da2986;
     font-size: .8rem;
 }#MainForm .form-control:focus{
     border: 1px solid transparent;
@@ -68,14 +88,19 @@
 }.form-check-input {
     background-color: #ffbadf;
     border-color: #ffbadf;
-    border: 1px solid #d7176f;
+    border: 1px solid #da2986;
 }.form-check-input:checked {
-    background-color: #d7176f;
-    border-color: #d7176f;
+    background-color: #da2986;
+    border-color: #da2986;
 }#FormSubmit{
-    background-color: transparent;
+    font-family: "MaryKaySans-Semibold";
+    background-color: #8a13da;
+    color: #fff;
+    text-transform: uppercase;
     border: none !important;
     box-shadow: none !important;
+    padding: 10px 60px;
+    border-radius: 30px;
 }
 .check2 {
     background-color: #b8a6d8;

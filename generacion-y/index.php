@@ -17,39 +17,54 @@
                 </div>
                 
                 <div class="col-12 col-lg-8 offset-lg-2">
-                    <iframe class="MainVideo" width="100%" src="https://www.youtube.com/embed/lrzno3Pg3RI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe class="MainVideo" width="100%" src="https://www.youtube.com/embed/Ncwzk9muZBA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 
-                <div class="col-8 offset-2 col-lg-6 offset-lg-3 my-4">
+                <div class="col-8 offset-2 col-lg-4 offset-lg-4 my-5 text-center">
                     <img src="images/logo-inicia.png" class="img-fluid" alt="">
                 </div>
                 
-                <div class="col-12 my-2 col-lg-6 offset-lg-3 text-center">
-                    <img src="images/kit1.png" class="img-fluid" alt="">
-                </div>
-                
-                <div class="col-12 col-lg-6 offset-lg-3 text-center my-4">
-                    <p class="white text-center">
+                <div class="col-12 col-lg-6 offset-lg-3 text-center">
+                    <p class="white text-center txt-responsive">
                         <strong>¿Te gustaría comenzar un Negocio Independiente</strong> que te brinde la oportunidad de <strong>ser tu propio jefe,</strong> de obtener ingresos extras, de <strong>disfrutar</strong> de <strong>tu familia</strong> y <strong>amigos;</strong> de <strong>poder viajar, ahorrar</strong> y darle vida a tus <strong>más grandes sueños?</strong> 
                     </p>
                 </div>
                 
-                <div class="col-12 col-lg-6 offset-lg-3 text-center">
-                    <img src="images/kit2.png" class="img-fluid my-4" alt="">
-                    <p class="white text-center">
-                    <strong> Atrévete a descubrir todos los beneficios</strong> de ser una Consultora de Belleza Independiente Mary Kay®
+                <div class="col-12 my-2 col-lg-10 offset-lg-1 text-center">
+                    <img src="images/kit1.png" class="img-fluid" alt="">
+                    
+                    <p class="white text-center txt-responsive mt-5">
+                        <strong> Atrévete a descubrir todos los beneficios</strong> de ser una Consultora de<br>Belleza Independiente Mary Kay®
                     </p>
-                    <img src="images/deseos.png" class="img-fluid my-4" alt="">
                 </div>
                 
+                <div class="col-12 col-lg-6 offset-lg-3 text-center">   
+                    <img src="images/kit2.png" class="img-fluid my-4" alt="">                                        
+                </div>
+                
+                <div class="col-12 col-lg-10 offset-lg-1 text-center">                                                                                
+                    <h3 class="main-tit1 text-center white">
+                        SI ENTRE TUS <span class="pink">PROPÓSITOS</span><br> 
+                        <span class="pink">PARA ESTE AÑO</span> ESTÁN:
+                    </h3>                    
+                </div>
+
+                <div class="col-12 col-lg-6 offset-lg-3 text-center">                                                                                
+                   <img src="images/deseos.png" class="img-fluid my-4" alt="">
+                </div>
+                                    
                 <div class="col-12 col-lg-6 offset-lg-3 text-center my-4">
                     <h1 class="main-tit1 text-center pink">
                         ¡ESTE ES EL MOMENTO<br>
                         <span class="white">PARA INICIAR!</span>
                     </h1>
                     
+                    <p class="white">
+                        Estás a solo un clic de <strong>cumplir tus propósitos.</strong> Regístrate y una Consultora de Ventas Independiente Mary Kay te guiará paso a paso en <strong>tu camino al éxito.</strong>
+                    </p>
+                    
                     <form action="" id="MainForm">
-                        <div class="mb-3 mt-5">
+                        <div class="mb-3">
                             <label for="nombre" class="form-label text-center">
                                 <img src="images/label_nombre.png" alt="" class="img-fluid">
                             </label>

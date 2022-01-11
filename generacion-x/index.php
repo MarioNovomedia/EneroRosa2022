@@ -68,6 +68,12 @@
                             <input type="text" class="form-control" id="email" name="email" placeholder="*Ingresa tu correo electrónico">    
                         </div>                        
                         <div class="mb-3 text-start">
+                            <label for="telefono" class="form-label mb-0">
+                                <img src="images/label_celular.png" class="img-fluid" alt="">
+                            </label>
+                            <input type="text" class="form-control" id="telefono" name="telefono" placeholder="*Teléfono Celular">    
+                        </div>
+                        <div class="mb-3 text-start">
                             <label for="cp" class="form-label mb-0">
                                 <img src="images/label_cp.png" class="img-fluid" alt="">
                             </label>

@@ -52,13 +52,15 @@
                 <div class="col-12 col-lg-6 offset-lg-3 text-center">                                                                                
                    <img src="images/deseos.png" class="img-fluid my-4" alt="">
                 </div>
-                                    
-                <div class="col-12 col-lg-6 offset-lg-3 text-center my-4">
+                
+                <div class="col-12 col-lg-12 text-center my-4 p-0">
                     <h1 class="main-tit1 text-center pink">
                         ¡ESTE ES EL MOMENTO<br>
                         <span class="white">PARA INICIAR!</span>
                     </h1>
-                    
+                </div>
+                
+                <div class="col-12 col-lg-6 offset-lg-3 text-center my-4">                    
                     <p class="white">
                         Estás a solo un clic de <strong>cumplir tus propósitos.</strong> Regístrate y una Consultora de Ventas Independiente Mary Kay te guiará paso a paso en <strong>tu camino al éxito.</strong>
                     </p>
